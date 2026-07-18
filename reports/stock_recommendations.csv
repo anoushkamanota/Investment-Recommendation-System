@@ -1,0 +1,4 @@
+Company,Average Return,Volatility,MA20,MA50,Recommendation,Reason
+TCS,0.00045861679505427265,0.013347601795236592,4039.1562622070314,3934.79919921875,BUY,"Positive average return, 20-day moving average is above 50-day moving average, and volatility is moderate."
+Infosys,0.0010149492492780435,0.014435424612863977,1840.4911254882813,1785.7945556640625,BUY,"Positive average return, 20-day moving average is above 50-day moving average, and volatility is moderate."
+Reliance,-0.00014123029026063267,0.014454979934910302,1247.7841857910157,1274.311591796875,SELL,"Negative average return and 20-day moving average is below 50-day moving average, indicating a downward trend."
