@@ -42,40 +42,13 @@ def recommend_stock(metrics):
 
     return recommendation, reason
 
-# infy = analyze_stock("data/processed/INFY_cleaned.csv")
-
-# recommendation, reason = recommend_stock(infy)
-
-# print(recommendation)
-# print(reason)
-
-
-
-#  stocks = {
-
-#      "TCS":"data/processed/TCS_cleaned.csv",
-
-#      "Infosys":"data/processed/INFY_cleaned.csv",
-
-#      "Reliance":"data/processed/RELIANCE_cleaned.csv"
-
-#  }
-
-#  for company, file in stocks.items():
-
-#      metrics = analyze_stock(file)
-
-#      recommendation, reason = recommend_stock(metrics)
-
-#      print(f"\n{company}")
-#      print("Recommendation:", recommendation)
-#      print("Reason:", reason)
 
 def risk_level(volatility):
     if(volatility < 0.01):
         return "Low"
-    elif(volatility):
+    elif(volatility < 0.02):
         return "Medium"
     else:
         return "High"
     
+   

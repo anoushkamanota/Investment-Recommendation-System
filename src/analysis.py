@@ -40,7 +40,4 @@ def analyze_stock(file_path):
         "MA50": latest_ma50
     }
 
-tcs = analyze_stock("data/processed/TCS_cleaned.csv")
-
-print(tcs)
 
