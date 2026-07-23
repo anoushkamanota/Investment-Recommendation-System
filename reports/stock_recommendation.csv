@@ -1,2 +1,4 @@
 Company,Average Return,Volatility,Recommendation,Risk Level,Reason
-TCS,0.00045861679505427265,0.013347601795236592,BUY,Medium,"Positive average return, 20-day moving average is above 50-day moving average, and volatility is moderate."
+TCS,0.00045861679505427265,0.013347601795236592,BUY,Medium,"Investment Rationale:
+
+The stock demonstrates a positive average daily return over the selected period, indicating consistent growth. The 20-day moving average remains above the 50-day moving average, suggesting a bullish market trend. Daily return volatility is moderate, indicating manageable investment risk. Based on these technical indicators, the stock receives a BUY recommendation."

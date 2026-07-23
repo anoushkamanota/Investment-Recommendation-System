@@ -13,10 +13,12 @@ def recommend_stock(metrics):
         recommendation = "BUY"
 
         reason = (
-            "Positive average return, "
-            "20-day moving average is above "
-            "50-day moving average, "
-            "and volatility is moderate."
+            "Investment Rationale:\n\n"
+            "The stock demonstrates a positive average daily return over the selected period, "
+            "indicating consistent growth. The 20-day moving average remains above the "
+            "50-day moving average, suggesting a bullish market trend. Daily return "
+            "volatility is moderate, indicating manageable investment risk. Based on these "
+            "technical indicators, the stock receives a BUY recommendation."
         )
 
     elif(average_return < 0 and ma20 < ma50):
@@ -24,10 +26,12 @@ def recommend_stock(metrics):
         recommendation = "SELL"
 
         reason = (
-            "Negative average return and "
-            "20-day moving average is below "
-            "50-day moving average, "
-            "indicating a downward trend."
+            "Investment Rationale:\n\n"
+            "The stock has produced a negative average daily return over the selected "
+            "period. The 20-day moving average remains below the 50-day moving average, "
+            "indicating bearish momentum. Although volatility may vary, the overall trend "
+            "suggests weakening price performance. Based on these indicators, the stock "
+            "receives a SELL recommendation."
         )
 
     else:
@@ -35,9 +39,11 @@ def recommend_stock(metrics):
         recommendation = "HOLD"
 
         reason = (
-            "Returns are stable and "
-            "no strong upward or downward "
-            "trend is observed."
+            "Investment Rationale:\n\n"
+            "The stock is currently showing stable returns without a strong upward or "
+            "downward trend. The moving averages are close together, indicating market "
+            "consolidation rather than a clear trend. Since the available indicators do "
+            "not provide a strong buy or sell signal, a HOLD recommendation is appropriate."
         )
 
     return recommendation, reason
